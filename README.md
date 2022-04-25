@@ -75,19 +75,19 @@ With the support of our EDR, we were able to create the joints between tables an
 
 The number of retiring employees have been calculated with their current titles for employees born between 1952 and 1955 who are eligible for retirement.
 
-> *Figure 2: Retirement titles list
+> *Figure 2: Retirement titles list*
 
 ![Retirement titles](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/retirement_titles.png)
 
 As it can be appreciated, the list is complete but it contain duplicated entries, the next step is to consider the most recent titles.
 
-> *Figure 3: Unique title list
+> *Figure 3: Unique title list*
 
 ![Unique titles](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/unique_titles.png)
 
 Using the DISTINCT ON function we were able to clean the previous data, to display only the most recent titles.
 
-> *Figure 4: Retiring titles lists
+> *Figure 4: Retiring titles lists*
 
 ![Retiring titles](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
 
@@ -95,41 +95,28 @@ In order to give more information to PH we create a list that counts the number 
 
 [:top: Go To Top](#index)
 
+#### **Deliverable 2**
+
+For this part fo the analysis, we create a new list that shows the number of eligible employees for a Mentorship Program.
+
+> *Figure 5: Mentorship eligibility*
+
+![Mentorship](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibility.png)
+
+As it can be shown, majority of the employees retiring are Senior Engineers (**25,916**) and Senior Staff (**24,926**)
+
+Also the employees born in 1965 are eligible for Mentorship Program with a total of **1,549** employees
 
 
-The retiring_titles.csv table counts the number of retiring employees for each title.
+#### **Silver Tsunami**
 
-In Deliverable 2, the mentorship_eligibility.csv table lists the number of eligible employees for a Mentorship Program
-
-
-
-From the above analysis, we can find that -
-
-72,458 employees born between 1952 and 1955 will be retiring from Pewlett-Hackard soon.
-Majority of the employees retiring are Senior Engineers (25,916) and Senior Staff (24,926).Therefore there will be many open positions for Senior Engineers and Senior Staff.
-
-
-Only current employees born in 1965 are eligible for a Mentorship Program.
-1,549 employees are currently eligible to take part in the Mentorship Program.
-Summary
-
-72,458 rolls will need to be filled as the “silver tsunami” begins to make an impact.
-Overall, 1549 qualified, retirement-ready employees are available to mentor the next generation of Pewlett Hackard employees.
-Further analysis shows that the maximum number of retirements are set to happen in Development and Production departments.
-
-
-Also, in terms of the number of mentors available, further analysis shows that the Development department has the highest number of mentors (417) while Quality Management department has the least number of mentors (70).
-
-
-Therefore, on a higher level, one mentor in each department will have to train more than 40 employees approximately which seems difficult. Since the ratio of retirement to eligible mentorship is so high, Pewlett Hackard will face great deficit in training the new employees.
+- 75,458 positions will need to be filled
+- 1,549 qualified employees are available to train the next generation of PH employees.
+- 417 mentors are available for Development department.
+- One mentor per department will need to give training to around 40 employees.
 
 
 [:top: Go To Top](#index)
-
-
-
-
-
 
 
 This work belongs to [^1].
