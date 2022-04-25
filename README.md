@@ -71,12 +71,30 @@ With the support of our EDR, we were able to create the joints between tables an
 
 ![Employee Database](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
-In Deliverable 1, the number of retiring employees have been calculated with their current titles.
+#### **Deliverable 1**
 
-The retirement_titles.csv table is a list of employees born between 1952 and 1955 who are eligible for retirement.
+The number of retiring employees have been calculated with their current titles for employees born between 1952 and 1955 who are eligible for retirement.
 
+> *Figure 2: Retirement titles list
 
-The unique_titles.csv table is a list of all the current employees of Pewlett-Hackard born between 1952 and 1955 with their most recent titles using the DISTINCT ON function.
+![Retirement titles](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/retirement_titles.png)
+
+As it can be appreciated, the list is complete but it contain duplicated entries, the next step is to consider the most recent titles.
+
+> *Figure 3: Unique title list
+
+![Unique titles](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/unique_titles.png)
+
+Using the DISTINCT ON function we were able to clean the previous data, to display only the most recent titles.
+
+> *Figure 4: Retiring titles lists
+
+![Retiring titles](https://github.com/amonjaras/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
+
+In order to give more information to PH we create a list that counts the number of retiring employees for each title.
+
+[:top: Go To Top](#index)
+
 
 
 The retiring_titles.csv table counts the number of retiring employees for each title.
